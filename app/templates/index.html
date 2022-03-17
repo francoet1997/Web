@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}
+Bienvenido
+{% endblock %}
+
+{% block content %}
+    <div class="hero">
+        <div class="hero-content">
+            <div class="left">
+                <h1>Soy Analista de Datos</h1>
+                <h1>Franco Etcheverry</h1>
+                <p>Construyo app en python dinamicas utilizando bases de datos relacionales.</p>
+                <a href="#contacto" class="btn">Contactame</a>
+            </div>
+            <div class="right">
+                <img src="{{ url_for('static', filename='img/big_data2.png') }} " width=600px />
+            </div>
+        </div>
+    </div>
+
+
+{% include 'section-first.html' %}
+{% include 'section-second.html' %}
+{% include 'section-third.html' %}
+{% endblock %}
+

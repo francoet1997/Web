@@ -1,0 +1,193 @@
+ html{
+     font-family: 'Rufina',sans-serif;
+ }
+ body{
+    background-color: rgb(67, 67, 67);
+    margin: 0;
+    color: #fff; 
+}
+
+a {
+    transition: color 0.3s ease;
+    font-family: 'Rubik', sans-serif;
+    color: #e74118;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+a:hover{
+    color: #e74118;
+}
+
+html body header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(67, 67, 67);
+    box-shadow: 3px 0 5px rgb(0, 0, 0);
+    padding: 15px 30px;
+    position: relative;
+    z-index: 2;
+}
+
+header .logo{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+html body nav ul {
+    list-style-type: none;
+    font-size: 16px;
+
+
+}
+
+html body nav ul li {
+    display: inline-block;
+}
+ html body nav ul li a {
+     padding: 0 15px;
+ }
+
+ .hero {
+     position: relative;
+     z-index: 1;
+     display: flex;
+     background-color: rgb(144, 144, 144);
+     padding: 20px 50px;
+     justify-content: center;
+ }
+
+ .hero .hero-content{
+     width: 1200px;
+     display: flex;
+     flex-direction: row;
+ }
+
+ .hero h1{
+     font-family: 'Rubik', sans-serif;
+     font-size: 50px;
+     font-weight: 1600;
+     margin-bottom: 0;
+     margin-top: 0;
+     justify-content:flex-start;
+ }
+
+ .hero p {
+    font-family: 'Rubik', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.left{
+     width: 600px;
+     align-self: center;
+ }
+
+.btn {
+    background-color: #e74118;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+
+}
+a.btn{
+    color: #fff;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 1200px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.color-secundario{
+    color:#e74118
+}
+
+.padded{
+    padding: 20px 30px;
+}
+
+.vert-pad{
+    padding: 20px 0;
+}
+
+.card{
+    background-color: #fff;
+    color: #333;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #ddd;
+    padding: 20px 30px;
+}
+
+.card h3{
+    color: #e74118;
+}
+
+.third{
+    width: 360px;
+    margin: 20px;
+}
+
+.contact-form input{
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+}
+
+.contact-form textarea{
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    height: 100px;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    resize: none;
+    border-radius: 5px;
+    width: calc(100% - 20px)
+}
+
+.full-width {
+    width: 100%;
+}
+
+.footer {
+    padding: 80px 0 0 0;
+    background-color: #333;
+    color: white;
+
+}
+
+.social-links a{
+    margin: 0 10px;
+    
+
+
+}
+.social{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+
+.white-bg{
+    background-color: rgb(144, 144, 144);
+}
